@@ -60,23 +60,33 @@ Pusula Ground Control Interface (GCS) is a custom-built software that enables re
 
 - 🎛️ **Real-time USV monitoring** - ARM status, flight mode, GPS, battery, failsafes
 - 🗺️ **Interactive map** with vehicle position and waypoint management
-- 💻 **Terminal interface** for direct command input
+- 🎯 **Button-based control interface** - Direct command execution via intuitive buttons
 - 🎨 **Color detection display** - Shows "Renk Bekleniyor" for İHA color detection
 - 📊 **System status panels** with telemetry data
 - 🚀 **Mission control** - Start/stop algorithms, mode switching
 
 ### YKI Integration
 
-- ✅ **Command translation** - Dashboard commands mapped to YKI macros
+- ✅ **Button-to-command mapping** - Dashboard buttons mapped to YKI macros via yki_server.py
 - 🔄 **Status polling** - Regular telemetry updates from YKI backend
 - 📡 **Serial communication** - Direct interface with Pixhawk via YKI
 - 🛡️ **Error handling** - Graceful handling of connection issues
+- 🎯 **Streamlined UX** - Terminal interface removed per Teknofest Aselsan jury feedback
 
 ## Usage
 
-### Command Interface
+### Control Interface
 
-The dashboard terminal accepts all YKI commands and macros:
+The dashboard provides intuitive button-based controls that communicate with the backend yki_server.py to execute commands. This streamlined interface was implemented following Teknofest Aselsan jury feedback for improved user experience.
+
+**Available Controls:**
+
+- **ARM/DISARM buttons** - Vehicle arming controls with safety confirmation
+- **Mode selection** - Manual/Guided mode switching via dropdown
+- **Mission controls** - Algorithm start/stop buttons
+- **Navigation controls** - Waypoint-based navigation through map interface
+
+**Backend Commands (executed via yki_server.py):**
 
 **Basic Commands:**
 
@@ -116,13 +126,14 @@ The "Renk Bekleniyor" section is preserved for future İHA color detection integ
 
 This integration supports the İnsansız Deniz Aracı (USV) competition requirements:
 
-- ✅ **YKI (Ground Control Station)** - Web-based dashboard
-- ✅ **Command Interface** - Terminal and button controls
+- ✅ **YKI (Ground Control Station)** - Web-based dashboard with button controls
+- ✅ **Control Interface** - Intuitive button-based command execution
 - ✅ **Telemetry Display** - Real-time status monitoring
 - ✅ **Mission Control** - Algorithm start/stop functionality
 - ✅ **Navigation** - Waypoint management and GPS display
 - ✅ **Safety Features** - ARM/DISARM controls and failsafe monitoring
 - ✅ **Color Detection Ready** - UI prepared for İHA integration
+- ✅ **Jury Compliance** - Interface optimized per Teknofest Aselsan feedback
 
 ## License
 
