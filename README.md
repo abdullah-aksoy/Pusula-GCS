@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./icon.png" alt="Pusula Logo" width="100">
+  <img src="./Readme Images/icon.png" alt="Pusula Logo" width="100">
   <h1>Pusula Ground Control Station (GCS)</h1>
 </div>
 
@@ -39,13 +39,13 @@ Pusula Ground Control Interface (GCS) is a custom-built software that enables re
 ## 🖼️ Visual
 
 <div align="center">
-  <img src="./real_life_example_1.png" alt="Dashboard Preview" width="90%">
+  <img src="./Readme Images/real_life_example_1.png" alt="Dashboard Preview" width="90%">
   <p><em>Figure 1: Pusula GCS Dashboard Interface</em></p>
   
-  <img src="./adding_waypoints_dashboard.png" alt="Waypoint Management" width="90%">
+  <img src="./Readme Images/adding_waypoints_dashboard.png" alt="Waypoint Management" width="90%">
   <p><em>Figure 2: Waypoint Management Interface</em></p>
   
-  <img src="./points_added_dashboard.png" alt="Mission Planning" width="90%">
+  <img src="./Readme Images/points_added_dashboard.png" alt="Mission Planning" width="90%">
   <p><em>Figure 3: Mission Planning with Multiple Waypoints</em></p>
 </div>
 
